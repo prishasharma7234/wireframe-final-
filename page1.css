@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(180, 180, 180);
+
+}
+
+#mobile-frame{ 
+    width: 414px;
+    height: 896px;
+    background-color: rgb(111, 111, 111);
+    border: 8px solid black;
+    border-radius: 40px;
+}
+
+#screen{
+    position: relative;
+    width: 394px;
+    height: 876px;
+    background-color: white;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#top-bar{
+    background-color: rgb(111, 111, 111);
+    position: relative;
+    width: 200px;
+    height: 40px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: -2px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}   
+#speaker{
+    position: relative;
+    height: 10px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: 20%;
+}
+
+#header{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(167, 167, 167);
+}
+
+#logo{
+   position: relative;
+   display: flex;
+   height: 50px;
+   width: 100px;
+   border: 3px solid black;
+   margin-left: 150px;
+   transform: translate(0, -50%);
+   top: 50%;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+}
+
+#about-me{
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    top: 55px;
+}
+
+svg{
+    position: relative;
+    display: flex;
+    top: 7%;
+ }
+
+ rect:hover{
+    mix-blend-mode: multiply;
+    fill: rgb(193, 193, 193);
+ }
+
+#lorem-p{
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    transform: translate(0, -50%);
+    top: 25%;
+    left: 12%;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    text-align: center;
+}
